@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Copperplate Gothic Light';
+    line-height: 1.5;
+}
+body {
+    background-color:rgba(218, 218, 218, 0.623);
+}
+.start{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+.navi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: black;
+    height: 50px;
+}
+.nav-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+    margin: 0 20px;
+    padding: 15px 50px;
+}
+.nav-button a {
+    text-decoration: none;
+    color: white;
+}
+.nav-button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.title {
+    color: whitesmoke;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-image: url("cafe.jpg");
+    background-position: center;
+    height: 600px;
+}
+.middle {
+    color:whitesmoke;
+    align-items: center;
+}
+.text-white {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 10vh;
+}
+.corners {
+    display: flex;
+    justify-content: space-between;
+}
+.corners p {
+    color: white;
+    margin: 1rem;
+    padding: 10px 15px;
+}
+.left-bottom {
+    background-color: black;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.children-1 {
+    margin: 3rem;
+    padding: 0 1rem;
+    color: white;
+    background-color: black;
+}
+.children-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0 60vh;
+}
+.cytat {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 225, 228);
+    border-left: 6px solid rgb(192, 188, 188);
+    margin: 1rem 62vh;
+    padding: 1rem 3vh;
+}
+.text-1 {
+    font-style: italic;
+}
+.random-pic {
+    width: 86.5vh;
+    height: 90vh;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 62vh 3rem 26vh;
+    padding: 1rem 3vh;
+}
+.info p {
+    margin: 0.5rem 0;
+}
+.fatty {
+    font-weight: bold;
+}
+.bajtel {
+    display: flex;
+    align-items: center;
+    margin: 0 42rem 4rem;
+    padding: 0 2rem;
+    color: white;
+    background-color: black;
+}
+.buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 0.1px solid whitesmoke;
+    margin: 1rem 28rem;
+    padding: 0 2rem;
+}
+.button {
+    border: 1px solid white;
+    margin: 0;
+    padding: 1rem 9rem;
+    background: none;
+    background-color: whitesmoke;
+    box-shadow:-2px -2px 2px 5px #888888;
+    cursor: pointer;
+}
+.orders {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:0 27rem;
+    border: 1px solid white; 
+    box-shadow:-2px -2px 2px 5px #888888;
+}
+.order-pick {
+    font-weight: bold;
+    margin:1rem 1rem;
+}
+.order-description {
+    margin: 0 0 2rem 1rem;
+}
+.coffee-cup {
+    height: 25rem;
+    width: 41.5rem;
+    margin: 2rem 26.7rem;
+}
+.position {
+    display: flex;
+    align-items: center;
+    margin: 2rem 39rem 4rem;
+    padding: 0 2rem;
+    color: white;
+    background-color: black;
+}
+.text {
+    margin: 1rem 27rem;
+}
+.street-view {
+    margin: 0 26.5rem;
+}
+#FYI {
+    color: white;
+    background-color: black;
+    margin: 0 0.5rem 0 0;
+}
+.tata {
+    margin: 1rem 26.5rem;
+}
+.tata p {
+    margin-top: 1rem;
+}
+#reserve {
+    font-weight: bold;
+}
+.put-reservation {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 26.5rem;
+}
+.text-area {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 1rem 1rem;
+}
+.Send {
+    border: none;
+    color: white;
+    background-color: black;
+    height: 100%;
+    margin: 0 26.5rem;
+    padding: 0.5rem 1.25rem;
+    cursor: pointer;
+}
+.Send:hover {
+    background-color: silver;
+}
+
